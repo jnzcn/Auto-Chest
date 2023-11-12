@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jnzcn/Auto-Chest/main/AutoChest.lua')))()
+local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/jnzcn/Auto-Chest/main/AutoChest.lua")))()
 highChestOnly = true
 godsChalicSniper = false
 repeat task.wait(4) until game:IsLoaded()

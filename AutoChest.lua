@@ -1,4 +1,5 @@
 local library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/jnzcn/Auto-Chest/main/AutoChest.lua")))()
+local x = library:CreateWindow("Chest")
 highChestOnly = true
 godsChalicSniper = false
 repeat task.wait(4) until game:IsLoaded()
